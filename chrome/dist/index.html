@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="shoticon" href="./favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=0">
+  <meta name="description" content="Markdown转换工具">
+  <title>MD2RichText</title>
+
+  <!--<link href="https://cdn.bootcss.com/codemirror/5.32.0/codemirror.css" rel="stylesheet" />-->
+  <!--<script src="https://cdn.bootcss.com/codemirror/5.32.0/codemirror.js"></script>-->
+  <!--<script src="https://cdn.bootcss.com/codemirror/5.32.0/mode/css/css.js"></script>-->
+
+  <script src="./js/index.js"></script>
+
+  <link rel="stylesheet" href="./themes/github-v2.css" id="codeThemeId"/>
+  <link rel="stylesheet" id="pageThemeId"/>
+
+  <style type="text/css">
+    html, body {
+      height: 100%;
+    }
+
+    .topheader {
+      width: 100%;
+      float: left;
+      height: 100px;
+    }
+
+    #input {
+      width: 50%;
+      position: absolute;
+      top: 100px;
+      /*bottom: 100px;*/
+      left: 0px;
+    }
+
+    #output {
+      width: 50%;
+      position: absolute;
+      top: 100px;
+      /*bottom: 100px;*/
+      left: 50%;
+    }
+
+    .convert-button, .copy-button {
+      position: inherit;
+    }
+  </style>
+</head>
+<body>
+
+
+<div class="topheader">
+  <h1>MD2RichText </h1>
+  <div class="options">
+    <div class="theme-wrapper">
+      <label>页面主题选择：</label><select class="page-theme"></select><br><br>
+      <label>代码主题选择：</label><select class="code-theme"></select>
+    </div>
+    <div class="theme-wrapper">
+      <button class="btn edit-style-button" id="edit-style-button">编辑样式</button>
+      <button class="btn copy-button" data-clipboard-action="cut" data-clipboard-target="#outputCtt">选中内容</button>
+    </div>
+  </div>
+</div>
+
+<!--编辑-->
+<textarea id="input" spellcheck="false"></textarea>
+<!--预览-->
+<div id="output" class="themes-config">
+  <style scoped id="style-css" type="text/css"></style>
+  <div class="wrapper" id="outputCtt"></div>
+</div>
+<!--样式编辑-->
+<div id="style-edit" class="hide">
+  <textarea></textarea>
+  <div id="style-options">
+    <button class="btn" id="reset-style">恢复默认</button>
+    <button class="btn" id="confirm-style">确认</button>
+  </div>
+</div>
+
+</body>
+</html>

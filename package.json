@@ -1,0 +1,39 @@
+{
+  "name": "online-markdown",
+  "version": "1.0.0",
+  "description": "A online markdown converter specially for Wechat Public formatting.",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack --watch",
+    "build": "./node_modules/.bin/webpack && cp -rf ./dist ./chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barretlee/online-markdown.git"
+  },
+  "keywords": [
+    "wechat",
+    "markdown",
+    "format"
+  ],
+  "author": "Barret Lee <barret.china@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barretlee/online-markdown/issues"
+  },
+  "homepage": "https://github.com/barretlee/online-markdown",
+  "dependencies": {
+    "css-validator": "^0.8.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "~4.0.1",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.10.0",
+    "jsx-loader": "^0.13.2",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.1"
+  }
+}
