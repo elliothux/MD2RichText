@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/webpack --watch",
-    "build": "./node_modules/.bin/webpack && cp -rf ./dist ./chrome"
+    "build": "./node_modules/.bin/webpack; cp -rf ./dist ./chrome"
   },
   "repository": {
     "type": "git",

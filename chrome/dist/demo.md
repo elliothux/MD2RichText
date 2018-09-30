@@ -61,8 +61,6 @@ echo 'hello,world'
 
 ### 关于小胡子哥
 
-![微信公众号](http://md.barretlee.com/imgs/qrcode.jpg)
-
 ---
 
 以上是用的比较多的，还装了几十个使用频度比较低的插件，主要包括 Snippet 和文件高亮配置，可以在这里查看：<https://gist.github.com/barretlee/a5170eb6ca1805f66687063d2e3a4983>，你也可以通过 `Settings Sync` 将这个配置下载下来，id 就是后面半截：`a5170eb6ca1805f66687063d2e3a4983`。
