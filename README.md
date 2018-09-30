@@ -1,6 +1,6 @@
 # MD2RichText
 Convert Markdown to rich-text easily  
-![](./2.png)  
+<img src="./2.png" style="width: 200px; height: auto" />
 
 ### Features
 
@@ -15,6 +15,9 @@ See [MD2RichText](https://)
 
 ### About
 Modified from [dyc87112/online-markdown](https://github.com/dyc87112/online-markdown/)  
+
+### See Also
+[HuQingyang/markdown-img-to-base64](https://github.com/HuQingyang/markdown-img-to-base64)
 
 ### LICENSE
 MIT
