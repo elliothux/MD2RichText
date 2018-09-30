@@ -1,6 +1,6 @@
 {
   "name": "MD2RichText",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "manifest_version": 2,
   "description": "Convert Markdown into Rich-text easily",
   "homepage_url": "https://github.com/HuQingyang/MD2RichText",
