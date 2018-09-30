@@ -1,6 +1,5 @@
 # MD2RichText
-Convert Markdown to rich-text easily  
-<img src="./2.png" style="width: 200px; height: auto" />
+Convert Markdown to rich-text easily.  
 
 ### Features
 
