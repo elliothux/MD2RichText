@@ -51,7 +51,7 @@ OnlineMarkdown.init();
 | 橘子 | 2   | job |
 
 ## Get It
-See [MD2RichText](https://)
+See [MD2RichText on Chrome Store](https://chrome.google.com/webstore/detail/feminbolmpmkcblbpbdocmnfjkepehng/publish-accepted?authuser=0&hl=zh-CN)
 
 ## About
 Modified from [dyc87112/online-markdown](https://github.com/dyc87112/online-markdown/)  
