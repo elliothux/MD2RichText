@@ -10,7 +10,7 @@ Convert Markdown to rich-text easily.
 * Code themes
 
 ## Get It
-See [MD2RichText](https://chrome.google.com/webstore/detail/feminbolmpmkcblbpbdocmnfjkepehng)
+See [MD2RichText on Chrome Store](https://chrome.google.com/webstore/detail/feminbolmpmkcblbpbdocmnfjkepehng)
 
 ## About
 Modified from [dyc87112/online-markdown](https://github.com/dyc87112/online-markdown/)  
